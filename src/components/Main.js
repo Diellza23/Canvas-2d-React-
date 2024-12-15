@@ -99,8 +99,9 @@ const Main = () => {
         <Stage
           className="stage"
           ref={stageRef}
-          width={window.innerWidth}
-          height={300}
+          // width={window.innerWidth}
+          height={500}
+          width={1000}
           onPointerDown={() =>
             onPointerDown(
               action,

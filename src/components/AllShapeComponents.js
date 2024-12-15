@@ -18,7 +18,7 @@ const AllShapeComponents = ({
   return (
     <div className="d-flex flex-column gap-3">
       <div className="d-flex flex-column gap-2 allShapesContainer">
-        <span className="spanStyle">Static Shapes</span>
+        <span className="spanStyle fw-medium">Static Shapes</span>
         <div className="d-flex gap-3 align-items-center staticContainer">
           {shapeTypes.map(({ type, icon }, index) => (
             <StaticShapesButtons
@@ -33,8 +33,8 @@ const AllShapeComponents = ({
       </div>
 
       <div className="d-flex flex-column gap-2 allShapesContainer">
-        <span className="spanStyle">Dynamic Shapes</span>
-        <div className="flex justify-center items-center gap-3 py-2 px-3 w-fit mx-auto border shadow-lg rounded-lg">
+        <span className="spanStyle fw-medium">Dynamic Shapes</span>
+        <div className="flex justify-center items-center gap-3 p-2 bg-white">
           {buttonTypes.map(({ action, icon, label, size }) => (
             <DynamicShapesButton
               key={action}

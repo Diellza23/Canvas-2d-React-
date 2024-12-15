@@ -1,5 +1,12 @@
 import { Rect } from "react-konva";
-import { SelectIcon } from "../assets";
+import {
+  Arrow,
+  ArrowIcon,
+  CircleIcon,
+  Draw,
+  RectangleIcon,
+  SelectIcon,
+} from "../assets";
 import { ACTIONS } from "../constants";
 
 const buttonTypes = [
@@ -11,24 +18,24 @@ const buttonTypes = [
   {
     action: ACTIONS.RECTANGLE,
     icon: Rect,
-    label: "Rect",
+    label: <img src={RectangleIcon} alt="select" width="20" />,
   },
   {
     action: ACTIONS.CIRCLE,
     icon: Rect,
-    label: "Circle",
+    label: <img src={CircleIcon} alt="select" width="20" />,
     size: "1.5rem",
   },
   {
     action: ACTIONS.ARROW,
     icon: Rect,
-    label: "Arrow",
+    label: <img src={ArrowIcon} alt="select" width="20" />,
     size: "2rem",
   },
   {
     action: ACTIONS.SCRIBBLE,
     icon: Rect,
-    label: "Draw",
+    label: <img src={Draw} alt="select" width="20" />,
     size: "1.5rem",
   },
 ];

@@ -11,8 +11,13 @@ const DynamicShapesWithAllFunc = ({ shapes, setShapes, selectedId }) => {
 
   return (
     <div className="dynamicShapesContainer">
-      <span className="spanStyle">Dynamic Shapes with Color and Size</span>
-      <div className="d-flex gap-4 justify-content-between p-2">
+      <span
+        className="spanStyle fw-medium"
+        style={{ backgroundColor: "#f5f3f6" }}
+      >
+        Objects Color change and resize
+      </span>
+      <div className="d-flex gap-4 justify-content-between p-3 bg-white">
         <div className="d-flex gap-3 align-items-center">
           <button
             className="addRectangleBtn"
