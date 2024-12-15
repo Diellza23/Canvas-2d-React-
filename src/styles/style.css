@@ -1,0 +1,62 @@
+.deleteBtn {
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.allShapesContainer {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #f5f3f6;
+  height: fit-content;
+}
+.spanStyle {
+  padding: 8px 14px;
+}
+.staticContainer {
+  background: white;
+  padding: 8px 14px;
+}
+.stage {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.dynamicShapesButton {
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+.dynamicShapesContainer {
+  gap: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background: #f5f3f6;
+  height: fit-content;
+}
+.addRectangleBtn {
+  border: 2px solid black;
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.shape-button {
+  background: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.shape-button.rect {
+  border: 2px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+.shape-button.circle {
+  border: 2px solid black;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
